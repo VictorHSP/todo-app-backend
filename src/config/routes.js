@@ -1,6 +1,6 @@
 const express = require('express')
 
-module.exports = function (server) {
+module.exports = function(server) {
 
     // API Routers
     const router = express.Router()
@@ -10,5 +10,3 @@ module.exports = function (server) {
     const todoService = require('../api/todo/todoService')
     todoService.register(router, '/todos')
 }
-
-module.exports = server
