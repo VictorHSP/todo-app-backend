@@ -8,7 +8,7 @@
     "production": "pm2 start src/loader.js --name todo-app"
   },
   "keywords": [],
-  "author": "",
+  "author": "Victor Hugo",
   "license": "ISC",
   "dependencies": {
     "body-parser": "1.15.2",
